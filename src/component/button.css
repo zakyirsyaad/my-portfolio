@@ -1,0 +1,53 @@
+.button_banner {
+    padding: 10px 25px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    align-items: center;
+    transition: all .3s;
+    font-weight: 600;
+    color: #fff;
+}
+
+.get {
+    margin-right: 20px;
+}
+
+.button_banner:hover {
+    background-color: #fff;
+    letter-spacing: 1px;
+    color: #363636;
+    cursor: pointer;
+}
+
+.button_project {
+    padding: 10px 25px;
+    background-color: transparent;
+    border: 1px solid #363636;
+    align-items: center;
+    transition: all .3s;
+    font-weight: 600;
+    color: #363636;
+}
+
+.button_project:hover {
+    background-color: #363636;
+    color: #fff;
+    cursor: pointer;
+}
+
+.button_contact {
+    padding: 10px 25px;
+    align-self: flex-start;
+    background-color: transparent;
+    border: 1px solid #363636;
+    align-items: center;
+    transition: all .3s;
+    font-weight: 600;
+    color: #363636;
+}
+
+.button_contact:hover {
+    background-color: #363636;
+    color: #fff;
+    cursor: pointer;
+}
