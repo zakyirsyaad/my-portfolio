@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.3c0d4d25.css",
-    "main.js": "/my-portfolio/static/js/main.9f321f85.js",
+    "main.js": "/my-portfolio/static/js/main.a96459c7.js",
     "static/js/787.1f11dfe9.chunk.js": "/my-portfolio/static/js/787.1f11dfe9.chunk.js",
     "static/media/banner.JPG": "/my-portfolio/static/media/banner.9f61ae37d6440c4fdc82.JPG",
     "static/media/Zaky Irsyad Rais - Frontend Developer.pdf": "/my-portfolio/static/media/Zaky Irsyad Rais - Frontend Developer.2cf15e40db62da7864b4.pdf",
     "index.html": "/my-portfolio/index.html",
     "main.3c0d4d25.css.map": "/my-portfolio/static/css/main.3c0d4d25.css.map",
-    "main.9f321f85.js.map": "/my-portfolio/static/js/main.9f321f85.js.map",
+    "main.a96459c7.js.map": "/my-portfolio/static/js/main.a96459c7.js.map",
     "787.1f11dfe9.chunk.js.map": "/my-portfolio/static/js/787.1f11dfe9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3c0d4d25.css",
-    "static/js/main.9f321f85.js"
+    "static/js/main.a96459c7.js"
   ]
 }
