@@ -20,9 +20,9 @@ export default function About() {
                 </p>
             </div>
             <div className="about_link" data-aos="fade-right" data-aos-duration="1000">
-                <a href="#">Linked-in</a>
-                <a href="">Github</a>
-                <a href="">Instagram</a>
+                <a href="https://www.linkedin.com/in/zaky-irsyad-rais-047b83170/">Linked-in</a>
+                <a href="https://github.com/zakyirsyaad">Github</a>
+                <a href="https://www.instagram.com/zakyirsyaad/">Instagram</a>
             </div>
         </section>
     );

@@ -8,15 +8,22 @@ export default function Banner() {
         link.download = 'Zaky_Irsyad_Rais_Resume.pdf';
         link.click();
     };
+    const handleScroll = (id) => {
+        const element = document.getElementById(id);
+        element.scrollIntoView({ behavior: 'smooth' });
+    };
+
     return (
         <section className="banner_container">
             <div className="text_banner">
                 <p className='me_banner'>Hello, im Zaky Irsyad Rais</p>
                 <p className='header_banner'>Frontend Developer</p>
                 <p className='desc_banner'>People used to call me <b>Jeky</b>. Undergraduate informatics engineering students mastering frontend developers, can help you in developing websites with an attractive appearance.</p>
-                <button className="button_banner get">
-                    Get in Touch
-                </button>
+                <a href="/" onClick={(e) => { e.preventDefault(); handleScroll('contact'); }}>
+                    <button className="button_banner get">
+                        Get in Touch
+                    </button>
+                </a>
                 <button className='button_banner' onClick={handleDownload}>
                     My Resume
                 </button>

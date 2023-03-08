@@ -15,7 +15,11 @@ export default function Project() {
             <div className="project project01" data-aos="fade-left" data-aos-duration="1000">
                 <div className="project_box">
                     <p className="project_name">CREATE UR WEBSITE</p>
-                    <button className="button_project">Show Project</button>
+                    <a href='https://github.com/zakyirsyaad/createwebsiteagency' target={'_blank'}>
+                        <button className="button_project">
+                            Show Project
+                        </button>
+                    </a>
                     <p className="project_desc">
                         Create ur Website Agency
                         This is a website made for an agency company, which is a website creation service.<br></br>
@@ -39,7 +43,11 @@ export default function Project() {
             <div className="project" data-aos="fade-right" data-aos-duration="1000">
                 <div className="project_box">
                     <p className="project_name">EXPRIMER</p>
-                    <button className="button_project">Show Project</button>
+                    <a href='https://github.com/zakyirsyaad/exprimer' target={'_blank'}>
+                        <button className="button_project">
+                            Show Project
+                        </button>
+                    </a>
                     <p className="project_desc">Exprimer is an application website that provides a mental health service, shares complaints, and provides mental health knowledge.<br></br>
                         Tech task using: React JS.
                     </p>
