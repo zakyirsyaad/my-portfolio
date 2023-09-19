@@ -1,11 +1,17 @@
 import image from '../../component/banner.JPG'
-import resumePdf from '../../component/Zaky Irsyad Rais - Frontend Developer.pdf'
+import imageHTML from '../../component/logo tech stack/HTML5_logo_and_wordmark.svg'
+import imageCSS from '../../component/logo tech stack/css-logo.png'
+import imageJS from '../../component/logo tech stack/JavaScript-logo.png'
+import imageREACT from '../../component/logo tech stack/react-1-logo-png-transparent.png'
+import imageSCSS from '../../component/logo tech stack/Sass_Logo_Color.svg'
+
+import resumePdf from '../../component/CVJeky.pdf'
 
 export default function Banner() {
     const handleDownload = () => {
         const link = document.createElement('a');
         link.href = resumePdf;
-        link.download = 'Zaky_Irsyad_Rais_Resume.pdf';
+        link.download = 'Curriculum Vitae - Zaky Irsyad Rais.pdf';
         link.click();
     };
     const handleScroll = (id) => {

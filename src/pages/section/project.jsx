@@ -12,6 +12,27 @@ export default function Project() {
                     Project Jeky
                 </p>
             </div>
+            <div className="project project01" data-aos="fade-right" data-aos-duration="1000">
+                <div className="project_box">
+                    <p className="project_name">BagiKopi Contact Website</p>
+                    <a href='https://github.com/zakyirsyaad/createwebsiteagency' target={'_blank'}>
+                        <button className="button_project">
+                            Show Project
+                        </button>
+                    </a>
+                    <p className="project_desc">
+                        The website that I created for BagiKopi has a working system like Linktree.<br></br>
+                        Tech task using: React JS.
+                    </p>
+                </div>
+                <div className="project_feature">
+                    <p className="feature_text">Feature:</p>
+                    <ul>
+                        <li>which means that you can link many links with one link, namely <span><a href="https://zakyirsyaad.github.io/bagikopi-contact/" target='_blank' className='link-bk'>zakyirsyaad.github.io/bagikopi-contact</a></span> which includes several links for Reservations, Menus, Locations and Orders by Go Food.
+                            Tech task using: React JS.</li>
+                    </ul>
+                </div>
+            </div>
             <div className="project project01" data-aos="fade-left" data-aos-duration="1000">
                 <div className="project_box">
                     <p className="project_name">CREATE UR WEBSITE</p>
@@ -40,7 +61,7 @@ export default function Project() {
                     </ul>
                 </div>
             </div>
-            <div className="project" data-aos="fade-right" data-aos-duration="1000">
+            <div className="project project01" data-aos="fade-right" data-aos-duration="1000">
                 <div className="project_box">
                     <p className="project_name">EXPRIMER</p>
                     <a href='https://github.com/zakyirsyaad/exprimer' target={'_blank'}>
@@ -64,6 +85,34 @@ export default function Project() {
                         <li>Having a posting feature that can interact with other users with comments and reaction.</li>
                         <li>Having a page algorithm or relevant discussion posts experienced by the user.</li>
                         <li>Having a report feature for users who are reported because they are not in accordance with other user policies and privacy.</li>
+                    </ul>
+                </div>
+            </div>
+            <div className="project" data-aos="fade-left" data-aos-duration="1000">
+                <div className="project_box">
+                    <p className="project_name">CREATE UR WEBSITE</p>
+                    <a href='https://github.com/zakyirsyaad/createwebsiteagency' target={'_blank'}>
+                        <button className="button_project">
+                            Show Project
+                        </button>
+                    </a>
+                    <p className="project_desc">
+                        Create ur Website Agency
+                        This is a website made for an agency company, which is a website creation service.<br></br>
+                        Tech task using: React JS.
+                    </p>
+                </div>
+                <div className="project_feature">
+                    <p className="feature_text">Feature:</p>
+                    <ul>
+                        <li>No loading page to page.</li>
+                        <li>Have 3 pages (Home About Contact).</li>
+                        <li>Have a not found page (404 page not found).</li>
+                        <li>Available media (Image and Video).</li>
+                        <li>Attractive page and button.</li>
+                        <li>Contact send to email and whatssapp.</li>
+                        <li>Responsive Website all devices.</li>
+                        <li>Easy accesibility.</li>
                     </ul>
                 </div>
             </div>
